@@ -2,7 +2,7 @@ from extract import extract
 from transform import transform
 from load import load
 
-source_file_name = 'customer_order0'
+source_file_name = 'customer_order1'
 
 extract_ins = extract(source_file_name = source_file_name)
 extract_ins.extractData()
